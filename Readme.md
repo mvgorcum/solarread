@@ -18,4 +18,16 @@ This second script is also supposed to be run on a regular interval to keep the 
 
 `*/10 * * * * /usr/bin/python3 /home/pi/show_solar.py`
 
-The `html/index.html` file is a *very* simple html index file to just server up the two plots
+The `html/index.html` file is a *very* simple html index file to just server up the two plots.
+
+The scripts depend on a few python packages:
+
+```
+requests
+re
+time
+os
+pandas
+matplotlib
+datetime
+```
